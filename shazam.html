@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shazam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <!-- header -->
+  <div class="row" >
+    <div class="col-12 header">
+      <img src="images/shazam.png" alt="logo" width="139" height="36">
+      <img src="images/userlogo1.png" alt="logo" width="34" height="28">
+    </div>
+  </div>
+<div class="row">
+  <div class="col-12">
+    <hr class="head">
+  </div>
+</div>
+
+  
+  <div class="row">
+    <div class="col-9">
+      <div class="banner">
+        <div class="banner-text">
+        <p>Hi, Ravali</p>
+        <h1>Check your daily report status on your <span>mobile</span></h1>
+        <button><img src="images/refer-button.png" alt="Download Mobile App" height="43" width="255"></button>
+        <img src="images/osplatform.png" alt="Mobile App" width="122" height="50">
+        </div>
+        <div class="banner-image">
+        <img src="images/nursebackground.png" alt="Daily Report Status" width="217" height="209">
+        </div>
+         
+    </div>
+    </div>
+    <div class="col-3">
+      <div class="white-box">
+      <div class="profile">
+        <span><img src="images/change.png" alt="Profile Picture" width="65" height="65"></span>
+         <span><strong>Dr.John</strong></span>
+        <p>Gynecologist</p>
+      </div>
+      <div class="total">
+        <div class="star">
+          <div class="icon-star"><i class="fa fa-star-o" aria-hidden="true"></i></div>
+         <div class="para-star">
+          <p><strong>4.3</strong><br><span>Reviews</span></p>
+         </div>
+        </div>
+        <div class="user">
+          <div class="icon-user"><i class="fa fa-user-o" aria-hidden="true"></i></div>
+          <div class="para-user"> <p><strong>100+</strong><br><span>Patients</span></p></div>
+         
+        </div>
+      </div>
+      <div class="btn">
+        <button class="btn-img"></button>
+        <!-- <img src="images/askdoc.png" alt="askdoctor" width="150" height="60"> -->
+      </div>
+         
+      </div>
+   
+    </div>
+
+
+
+  </div>
+   
+  <div class="row">
+    <div class="col-12">
+      <div class="flex-container">
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>01</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="orangebullet">Baseline Ultrasound(USand Bloodwork<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span> </li>
+          <li class="bluebullet">FSH hMG<span class="edit-two"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          </ul>
+          
+          </div>
+          <button type="submit" class="editdiv" id="myBtn">+ Add scan report</button>
+
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+          </div>
+          
+          
+        </div>
+        
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>02</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">FSH hMG<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine</span></li>
+          </ul>
+          </div>
+          <button class="editdiv" id="myBtn">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>03</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="blackbullet">FSH hMG<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine</span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>04</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">FSH hMG<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine</span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>05</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="orangebullet">Ultrasound(US) and Bloodwork <span class="edit-two"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="bluebullet">FSH hMG<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine</span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>06</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">FSH hMG Antagonist<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN,<span>Supplements,Prednisone, Antihistamine</li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>07</p>           
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="orangebullet">Ultrasound(US) and Bloodwork<span class="edit-two"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="bluebullet">FSH hMG Antagonist<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, Supplements,Prednisone, Antihistamine</li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>08</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="orangebullet">Ultrasound(US) and Bloodwork<span class="edit-two"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="bluebullet">FSH hMG Antagonist<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span>Antihistamine</li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>09</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="orangebullet">Ultrasound(US) and Bloodwork<span class="edit-two"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="bluebullet">FSH hMG Antagonist<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, Supplements,Prednisone, Antihistamine</li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>10</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="orangebullet">Ultrasound(US) and Bloodwork<span class="edit-two"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="bluebullet">FSH hMG Antagonist<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, Supplements,Prednisone, Antihistamine</li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>11</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="orangebullet">Ultrasound(US) and Bloodwork<span class="edit-two"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="bluebullet">FSH hMG Antagonist<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, Supplements,Prednisone, Antihistamine</li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>12</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Lupron<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, Supplements,Prednisone, Antihistamine plaquinel</li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>13</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Lupron<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, Supplements,Prednisone, Antihistamine plaquinel</li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>14</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="pinkbullet">Egg Retrieval<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, Supplements,Prednisone, Antihistamine plaquinel</li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>15</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, Supplements,Prednisone, Antihistamine plaquinel,hCG Booster, Neupogen</li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>16</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, Supplements,Prednisone, tihistamine span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>17</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+        </div>
+        <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>18</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit-two"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="pinkbullet">Cleavage Stage Transfer<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+            <hr>
+          <p>19</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>20</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>21</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>21</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>23</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>24</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div> 
+          <hr>
+          <p>25</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>26</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+        </div>
+        <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>27</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="flex-item-left">
+          <div>
+          <hr>
+          <p>28</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="pinkbullet">Pregnancy Test<span class="edit-two"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        <div class="item-left">
+          <div>
+          <hr>
+          <p>29</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv" >+ Add scan report</button>
+          
+        </div>
+        <div class="item-left">
+          <div>
+          <hr>
+          <p>30</p>
+          <p>21 Oct 2022</p>
+          <ul>
+          <li class="bluebullet">Estrogen, Progestrone<span class="edit"><i class="fa fa-pencil fa-1" aria-hidden="true"></i></span></li>
+          <li class="hiddenlist">LDN, <span>Supplements,Prednisone, </span><span>Antihistamine </span><span>plaquinel,hCG Booster, <span>Neupogen</span></span></li>
+          </ul>
+          </div>
+          <button class="editdiv">+ Add scan report</button>
+        </div>
+        </div>
+    </div>
+  </div>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+
+
+
+
+
+
+</body>
+</html>
